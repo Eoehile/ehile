@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>MY BLOG</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+    <img src="/img/circle.jpeg">
+    <hr>
+    <h2>Ehile Emmanuel</h2>
+    <p> Hey! I'm <strong>Emmanuel</strong>. Coding has changed my world. It's not just about apps. 
+        Learning to code gave me <i>problem-solving skills</i> and a way to communicate with others on a 
+        technical level. I can also develop websites and use my coding skills to get a better job. 
+        And I learned it all at <strong>SoloLearn</strong> where they build your self-esteem and 
+        keep you motivated. Join me in this rewarding journey. 
+        You'll have fun, get help, and learn along the way!</p>
+
+    <h2>My Coding Schedule</h2>
+    <table border="1" style="color: blue; text-align: center;">
+        <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+
+        </tr>
+        <tr>
+            <td>8:00-9:00</td>
+            <td>Learn</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>9:00-10:00</td>
+            <td></td>
+            <td>Practice</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>10:00-11:00</td>
+            <td></td>
+            <td></td>
+            <td>Code</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>11:00-11:30</td>
+            <td>Break</td>
+            <td>Break</td>
+            <td>Break</td>
+            <td>Break</td>
+            <td>Break</td>
+        </tr>
+        <tr>
+            <td>12:00pm-2:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Practice</td>
+        </tr>
+    </table>
+    <hr>
+    <div class="skills">
+    <h2>My Skills</h2>
+    <ul>
+        <li>HTML<br>
+            <progress min="0" max="100" value="80"></progress>
+        </li>
+        <li>CSS<br>
+            <progress min="0" max="100" value="50" style="color: green;"></progress>
+        </li>
+        <li>JAVASCRIPT<br>
+            <progress min="0" max="100" value="30"></progress>
+        </li>
+    </ul>
+</div><br>
+<form>
+    <label for="name">Full name
+    <input name="name" placeholder="Name" type="text" required />
+    </label><br>
+    <label for="email">Email
+    <input name="email" placeholder="Email" type="email" required />
+    </label><br>
+    <label for="message">Message
+    <textarea name="message" placeholder="Message" required ></textarea>
+    </label>
+
+    <input type="submit" value="SEND" class="submit"/>
+
+</body>
+</html>
